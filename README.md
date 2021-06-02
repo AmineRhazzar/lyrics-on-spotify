@@ -1,7 +1,7 @@
 # lyrics-on-spotify
 A Spotify Clone that displace lyrics as you're playing songs
 
-===
+___
 
 # Getting Started with Create React App
 

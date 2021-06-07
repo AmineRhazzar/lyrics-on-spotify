@@ -29,15 +29,47 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <a href="http://localhost:8888/login">Log in with Spotify</button>
+    <script>
+        function getHashParams() {
+          var hashParams = {};
+          var e, r = /([^&;=]+)=?([^&;]*)/g,
+              q = window.location.hash.substring(1);
+          while ( e = r.exec(q)) {
+             hashParams[e[1]] = decodeURIComponent(e[2]);
+          }
+          return hashParams;
+        }
+        var params = getHashParams();
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        var access_token = params.access_token,
+            refresh_token = params.refresh_token,
+            error = params.error;
+        
+            fetch("https://api.spotify.com/v1/me/player/currently-playing?market=MA",{
+                method: "GET",
+                headers: {
+                    "Authorization" : "Bearer " + access_token,
+                    "Accept" : "application/json",
+                    "Content-Type": "application/json"
+                }
+            }).then(res => res.json())
+            .then(resJson => {
+                return {"song":resJson.item.name, "artist": resJson.item.artists[0].name}
+            })
+            .then(songInfo => {
+                fetch("http://localhost:8888/get-lyrics", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(songInfo)
+                }).then(res => res.text())
+                .then(resText => {
+                    console.log(resText)
+                });
+            })
+    </script>
   </body>
 </html>

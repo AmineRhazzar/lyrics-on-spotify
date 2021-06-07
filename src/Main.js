@@ -43,12 +43,12 @@ const Main = (props) => {
 
   return (
     <p>
-      {lyrics.split("\n").map((line) => {
+      {lyrics.split("\n").map((line, i) => {
         return (
-          <>
+          <span key={i}>
             {line}
             <br />
-          </>
+          </span>
         );
       })}
     </p>

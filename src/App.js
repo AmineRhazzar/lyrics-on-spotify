@@ -27,13 +27,7 @@ function App() {
     }
   }, []);
 
-  return (
-    <>
-      <div>
-        {accessToken ? <Main accessToken={accessToken} /> : <Homepage />}
-      </div>
-    </>
-  );
+  return <>{accessToken ? <Main accessToken={accessToken} /> : <Homepage />}</>;
 }
 
 export default App;

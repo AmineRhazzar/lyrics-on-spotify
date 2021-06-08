@@ -46,7 +46,8 @@ const LyricsContainer = (props) => {
         //   .then((resText) => {
         //     setLyrics(resText);
         //   });
-      });
+      })
+      .catch((err) => {});
 
     setTimeout(() => {
       setRefreshTimeout(0);

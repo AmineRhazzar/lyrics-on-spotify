@@ -4,11 +4,12 @@ import ControlButtons from "./ControlButtons";
 import Facade from "./Facade";
 
 const Main = (props) => {
+  // console.log(props.userInfo);
   return (
     <main>
-      <Sidebar />
+      <Sidebar accessToken={props.accessToken} userId={props.userInfo.id} />
       <Facade accessToken={props.accessToken} />
-      <ControlButtons />
+      <ControlButtons accessToken={props.accessToken} />
     </main>
   );
 };

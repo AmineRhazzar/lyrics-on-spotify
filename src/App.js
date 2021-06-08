@@ -5,6 +5,7 @@ import Homepage from "./Homepage";
 function App() {
   const [accessToken, setAccessToken] = useState("");
   //const [refreshToken, setRefreshToken] = useState("");
+  const [userInfo, setUserInfo] = useState({});
 
   useEffect(() => {
     const getHashParams = () => {
@@ -24,10 +25,22 @@ function App() {
     if (!err) {
       setAccessToken(params.access_token);
       //setRefreshToken(params.refresh_token);
+
+      fetch("https://api.spotify.com/v1/me", {
+        method: "GET",
+        headers: {
+          Authorization: "Bearer " + params.access_token,
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => res.json())
+        .then((resJson) => setUserInfo(resJson))
+        .catch((err) => {});
     }
   }, []);
 
-  return <>{accessToken ? <Main accessToken={accessToken} /> : <Homepage />}</>;
+  return <>{accessToken ? <Main accessToken={accessToken} userInfo={userInfo}/> : <Homepage />}</>;
 }
 
 export default App;

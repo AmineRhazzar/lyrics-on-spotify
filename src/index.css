@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #242424;
   color: #f1f1f1;
   height: 100vh;
@@ -12,33 +12,88 @@ body{
   display: grid;
   place-items: center;
   font-family: "Poppins", sans-serif;
-  padding: 1rem;
 }
 
-a{
+a {
   color: #f1f1f1;
   font-size: 2rem;
   font-weight: 600;
-
 }
 main {
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
-  grid-template-columns: repeat(4, 1fr) ;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(20%, 270px) 1fr;
   grid-template-rows: repeat(8, 1fr);
 }
 
-.sidebar{
+.sidebar {
   grid-column: 1/2;
   grid-row: 1/8;
-  height: 100%;
-  width: 100%;
-  background-color: #404040;
+  background-color: #242424;
+  resize: horizontal;
+  border-right: 1px solid #707070;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
 
-.control{
+.logo {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-home,
+.nav-search,
+.nav-playlist {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #404040;
+  height: fit-content;
+  display: flex;
+  align-items: baseline;
+  margin: 2px 0px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.nav-home svg,
+.nav-search svg,
+.nav-playlist svg {
+  height: 1.2rem;
+  margin: 0 1rem;
+}
+.nav-home p,
+.nav-search p,
+.nav-playlist p {
+  font-size: 1.2rem;
+}
+
+.nav-home:hover,
+.nav-search:hover,
+.nav-playlist:hover {
+  background-color: #505050;
+}
+
+.playlist-cont {
+  height: 100%;
+  background-color: #404040;
+  margin-top: 2px;
+}
+
+.control {
   grid-row: 8/9;
-  grid-column: 1/5;
-  border: 1px solid #707070;
+  grid-column: 1/3;
+  border-top: 1px solid #707070;
+  position: relative;
+  z-index: 1;
+}
+
+.facade {
+  grid-column: 2/3;
+  grid-row: 1/8;
+  overflow: hidden scroll;
+  padding: 1rem;
 }

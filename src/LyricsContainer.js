@@ -35,17 +35,17 @@ const LyricsContainer = (props) => {
         };
       })
       .then((songNameArtist) => {
-        fetch("http://localhost:8888/get-lyrics", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(songNameArtist),
-        })
-          .then((res) => res.text())
-          .then((resText) => {
-            setLyrics(resText);
-          });
+        // fetch("http://localhost:8888/get-lyrics", {
+        //   method: "POST",
+        //   headers: {
+        //     "Content-Type": "application/json",
+        //   },
+        //   body: JSON.stringify(songNameArtist),
+        // })
+        //   .then((res) => res.text())
+        //   .then((resText) => {
+        //     setLyrics(resText);
+        //   });
       });
 
     setTimeout(() => {

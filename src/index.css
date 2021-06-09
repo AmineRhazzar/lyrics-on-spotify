@@ -152,7 +152,6 @@ main {
 .facade {
   grid-column: 2/3;
   grid-row: 1/8;
-  overflow: hidden scroll;
   padding: 1rem;
 }
 
@@ -161,6 +160,7 @@ main {
   width: 100%;
   display: flex;
   margin-bottom: 2rem;
+  background-color: #242424;
 }
 
 .song-cover{
@@ -182,6 +182,17 @@ main {
   font-size: 1.3rem;
 }
 
+.lyrics-cont{
+  height: 100%;
+}
+
+.lyrics-wrapper{
+  overflow-y: scroll;
+  height: calc(100% - 15rem);
+}
+
 .lyrics{
+  height: 100%;
   text-align: center;
+  font-size: 1rem;
 }

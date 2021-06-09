@@ -49,9 +49,9 @@ const LyricsContainer = (props) => {
       })
       .catch((err) => {});
 
-    setTimeout(() => {
-      setRefreshTimeout(0);
-    }, refreshTimeout);
+    // setTimeout(() => {
+    //   setRefreshTimeout(0);
+    // }, refreshTimeout);
   }, [props.accessToken, lyrics, refreshTimeout]);
 
   return (

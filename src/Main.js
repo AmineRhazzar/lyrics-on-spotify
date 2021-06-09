@@ -1,7 +1,7 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import ControlButtons from "./ControlButtons";
-import Facade from "./Facade";
+import Sidebar from "./Sidebar/Sidebar";
+import ControlButtons from "./Controls/ControlButtons";
+import Facade from "./Facade/Facade";
 
 const Main = (props) => {
   // console.log(props.userInfo);

@@ -35,17 +35,17 @@ const LyricsContainer = (props) => {
         };
       })
       .then((songNameArtist) => {
-        // fetch("http://localhost:8888/get-lyrics", {
-        //   method: "POST",
-        //   headers: {
-        //     "Content-Type": "application/json",
-        //   },
-        //   body: JSON.stringify(songNameArtist),
-        // })
-        //   .then((res) => res.text())
-        //   .then((resText) => {
-        //     setLyrics(resText);
-        //   });
+        fetch("http://localhost:8888/get-lyrics", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(songNameArtist),
+        })
+          .then((res) => res.text())
+          .then((resText) => {
+            setLyrics(resText);
+          });
       })
       .catch((err) => {});
 
@@ -56,11 +56,16 @@ const LyricsContainer = (props) => {
 
   return (
     <div className="lyrics-cont">
-      <img src={songInfo.cover} alt="" className="song-cover" />
-      <h1 className="song-title">{songInfo.name}</h1>
-      <p className="song-artist">
-        {songInfo.artists.map((elem) => elem.name).join()}
-      </p>
+      <div className="song-info">
+        <img src={songInfo.cover} alt="" className="song-cover" />
+        <div className="song-info-text">
+          <h1 className="song-title">{songInfo.name}</h1>
+          <p className="song-artist">
+            {songInfo.artists.map((elem) => elem.name).join(", ")}
+          </p>
+        </div>
+      </div>
+
       <Lyrics lyrics={lyrics} />
     </div>
   );

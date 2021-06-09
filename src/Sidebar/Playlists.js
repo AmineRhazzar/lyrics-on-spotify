@@ -6,7 +6,6 @@ const Playlists = (props) => {
     const logoHeight = document.querySelector(".logo").clientHeight;
     const homeHeight = document.querySelector(".nav-home").clientHeight;
     const searchHeight = document.querySelector(".nav-search").clientHeight;
-    console.log(logoHeight);
     document
       .querySelector(".playlist-cont")
       .style.setProperty(

@@ -173,7 +173,7 @@ main {
 }
 
 .song-title{
-  font-size: clamp(4vw, 3rem, 3rem);
+  font-size: clamp(3vw, 3rem, 3rem);
 }
 
 .song-artist{

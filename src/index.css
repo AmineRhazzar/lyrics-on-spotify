@@ -147,7 +147,11 @@ main {
   position: relative;
   z-index: 1;
   background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .error{
   width: fit-content;
   background-color: rgb(218, 40, 114);
@@ -172,9 +176,16 @@ main {
   }
 }
 
+.control-btns{
+  display: flex;
+  align-items: center;
+}
 
 .control-btns svg{
-  max-width: 2rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin: 0 1rem;
 }
 
 .facade {

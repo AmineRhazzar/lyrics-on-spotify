@@ -26,7 +26,7 @@ const Sidear = (props) => {
         })
         .catch((err) => {});
     }
-  }, []);
+  }, [props.accessToken, props.userId]);
 
   return (
     <div className="sidebar">

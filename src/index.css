@@ -148,6 +148,34 @@ main {
   z-index: 1;
   background-color: #242424;
 }
+.error{
+  width: fit-content;
+  background-color: rgb(218, 40, 114);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  right: -1000px;
+  animation: slide-in .3s ease-out forwards;
+  opacity: 1;
+  transition: .3s all ease;
+}
+@keyframes slide-in {
+  to{
+    right: 10px;
+  }
+}
+
+
+.control-btns svg{
+  max-width: 2rem;
+}
 
 .facade {
   grid-column: 2/3;
@@ -213,3 +241,4 @@ main {
   text-align: center;
   font-size: 1.2rem;
 }
+

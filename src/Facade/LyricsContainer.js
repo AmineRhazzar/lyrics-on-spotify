@@ -14,8 +14,8 @@ const LyricsContainer = (props) => {
     fetch("https://api.spotify.com/v1/me/player/currently-playing?market=MA", {
       method: "GET",
       headers: {
-        Authorization: "Bearer " + props.accessToken,
-        Accept: "application/json",
+        "Authorization": "Bearer " + props.accessToken,
+        "Accept": "application/json",
         "Content-Type": "application/json",
       },
     })

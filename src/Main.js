@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar/Sidebar";
-import ControlButtons from "./Controls/ControlButtons";
+import ControlBar from "./Controls/ControlBar";
 import Facade from "./Facade/Facade";
 
 const Main = (props) => {
@@ -9,7 +9,7 @@ const Main = (props) => {
     <main>
       <Sidebar accessToken={props.accessToken} userId={props.userInfo.id} />
       <Facade accessToken={props.accessToken} />
-      <ControlButtons accessToken={props.accessToken} />
+      <ControlBar accessToken={props.accessToken} />
     </main>
   );
 };

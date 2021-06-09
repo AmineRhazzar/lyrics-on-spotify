@@ -30,7 +30,9 @@ const ControlButtons = (props) => {
             setIsPlaying(false);
           }
         })
-        .catch((err) => {});
+        .catch((err) => {
+          throw err;
+        });
     } else {
       fetch("	https://api.spotify.com/v1/me/player/play", {
         method: "PUT",
@@ -38,18 +40,23 @@ const ControlButtons = (props) => {
           Authorization: "Bearer " + props.accessToken,
         },
       })
-        .then((res) => res.json())
+          .then((res) => res.json())
         .then((resJson) => {
           if (resJson.error?.reason) {
             setShowPremiumRequired(true);
             setTimeout(() => {
-              setShowPremiumRequired(false);
-            }, 3000);
-          } else {
-            setIsPlaying(true);
+              if (document.querySelector(".error")) {
+                document.querySelector(".error").style.opacity = "0";
+              }
+              setTimeout(() => {
+                setShowPremiumRequired(false);
+              }, 300);
+            }, 2700);
           }
         })
-        .catch((err) => {});
+        .catch((err) => {
+          throw err;
+        });
     }
   };
 
@@ -67,7 +74,37 @@ const ControlButtons = (props) => {
         if (resJson.error?.reason) {
           setShowPremiumRequired(true);
           setTimeout(() => {
-            document.querySelector(".error").style.opacity = "0";
+            if (document.querySelector(".error")) {
+              document.querySelector(".error").style.opacity = "0";
+            }
+            setTimeout(() => {
+              setShowPremiumRequired(false);
+            }, 300);
+          }, 2700);
+        }
+      })
+      .catch((err) => {
+        throw err;
+      });
+  };
+
+  const goPrev = () => {
+    fetch("	https://api.spotify.com/v1/me/player/previous", {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + props.accessToken,
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((resJson) => {
+        if (resJson.error?.reason) {
+          setShowPremiumRequired(true);
+          setTimeout(() => {
+            if (document.querySelector(".error")) {
+              document.querySelector(".error").style.opacity = "0";
+            }
             setTimeout(() => {
               setShowPremiumRequired(false);
             }, 300);
@@ -76,34 +113,10 @@ const ControlButtons = (props) => {
       })
       .catch((err) => {});
   };
-    
-    const goPrev = () => {
-      fetch("	https://api.spotify.com/v1/me/player/previous", {
-        method: "POST",
-        headers: {
-          Authorization: "Bearer " + props.accessToken,
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-      })
-        .then((res) => res.json())
-        .then((resJson) => {
-          if (resJson.error?.reason) {
-            setShowPremiumRequired(true);
-            setTimeout(() => {
-              document.querySelector(".error").style.opacity = "0";
-              setTimeout(() => {
-                setShowPremiumRequired(false);
-              }, 300);
-            }, 2700);
-          }
-        })
-        .catch((err) => {});
-    };
 
   return (
     <div className="control-btns">
-      <PrevTrackIcon onClick={goPrev }/>
+      <PrevTrackIcon onClick={goPrev} />
       {isPlaying ? (
         <PauseIcon onClick={handleSetPlaying} />
       ) : (

@@ -203,7 +203,6 @@ main {
 }
 
 .song-info button{
-  height: 3rem;
   cursor: pointer;
   margin: auto 2rem auto auto ;
   align-self: flex-end;
@@ -211,6 +210,7 @@ main {
   border: 2px solid #1DB954;
   color: #1DB954;
   padding: 1rem 2rem;
+  height: fit-content;
   border-radius: 10px;
   transition: .3s all ease;
   font-size: 1rem;
@@ -225,7 +225,10 @@ main {
 
 .song-cover{
   max-width: 13rem;
-  margin-right: 2rem;
+}
+
+.song-info-text{
+  margin: 0 1.5rem;
 }
 
 .song-title{

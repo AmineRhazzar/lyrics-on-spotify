@@ -4,7 +4,7 @@ import Homepage from "./Homepage";
 
 function App() {
   const [accessToken, setAccessToken] = useState("");
-  //const [refreshToken, setRefreshToken] = useState("");
+  const [refreshToken, setRefreshToken] = useState("");
   const [userInfo, setUserInfo] = useState({});
 
   useEffect(() => {
@@ -23,8 +23,9 @@ function App() {
     var err = params.error;
 
     if (!err) {
+      console.log(params["expires_in"]);
       setAccessToken(params.access_token);
-      //setRefreshToken(params.refresh_token);
+      setRefreshToken(params.refresh_token);
 
       fetch("https://api.spotify.com/v1/me", {
         method: "GET",
@@ -40,7 +41,40 @@ function App() {
     }
   }, []);
 
-  return <>{accessToken ? <Main accessToken={accessToken} userInfo={userInfo}/> : <Homepage />}</>;
+  useEffect(() => {
+    const refreshTokenInterval = setInterval(() => {
+      fetch(
+        "http://localhost:8888/refresh_token?refresh_token=" + refreshToken,
+        {
+          method: "GET",
+          headers: {
+            "Accept": "application/json",
+            "Content-Type":"application/json"
+          }
+        }
+      )
+        .then((res) => res.json())
+        .then((resJson) => {
+          console.log(resJson["access_token"]);
+          setAccessToken(resJson["access_token"]);
+        })
+        .catch((err) => {});
+    }, 3000 * 1000);
+
+    return () => {
+      clearInterval(refreshTokenInterval);
+    };
+  }, [refreshToken]);
+
+  return (
+    <>
+      {accessToken ? (
+        <Main accessToken={accessToken} userInfo={userInfo} />
+      ) : (
+        <Homepage />
+      )}
+    </>
+  );
 }
 
 export default App;

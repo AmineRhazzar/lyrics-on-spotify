@@ -133,7 +133,8 @@ app.get("/refresh_token", function (req, res) {
     url: "https://accounts.spotify.com/api/token",
     headers: {
       Authorization:
-        "Basic " + Buffer.from(client_id + ":" + client_secret, "base64"),
+        "Basic " +
+        new Buffer(client_id + ":" + client_secret).toString("base64"),
     },
     form: {
       grant_type: "refresh_token",
@@ -141,7 +142,7 @@ app.get("/refresh_token", function (req, res) {
     },
     json: true,
   };
-
+// Buffer.from(client_id + ":" + client_secret, "base64")
   //(new Buffer(client_id + ':' + client_secret).toString('base64'))
 
   request.post(authOptions, function (error, response, body) {

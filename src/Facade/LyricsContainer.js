@@ -3,7 +3,7 @@ import Lyrics from "./Lyrics";
 
 const LyricsContainer = (props) => {
   const [lyrics, setLyrics] = useState("");
-  const [refreshTimeout, setRefreshTimeout] = useState(0);
+  const [refreshTimeout, setRefreshTimeout] = useState(false);
   const [songInfo, setSongInfo] = useState({
     name: "",
     artists: [],
@@ -64,6 +64,9 @@ const LyricsContainer = (props) => {
             {songInfo.artists.map((elem) => elem.name).join(", ")}
           </p>
         </div>
+        <button onClick={() => {
+          setRefreshTimeout(!refreshTimeout);
+        }}>GET NEXT SONG</button>
       </div>
 
       <Lyrics lyrics={lyrics} />

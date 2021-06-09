@@ -168,10 +168,6 @@ main {
   margin-right: 2rem;
 }
 
-.song-info-text{
-  margin-top: 1rem;
-}
-
 .song-title{
   font-size: clamp(3vw, 3rem, 3rem);
 }

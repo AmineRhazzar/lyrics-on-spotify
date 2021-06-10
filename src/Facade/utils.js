@@ -63,4 +63,4 @@ const fadeIn = (elem) => {
   elem.style.opacity = 1;
 }
 
-export { getAverageRGB, getDataUrl };
+export { getAverageRGB, getDataUrl , fadeIn};

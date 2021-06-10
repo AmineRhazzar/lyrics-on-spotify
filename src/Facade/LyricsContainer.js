@@ -64,7 +64,7 @@ const LyricsContainer = (props) => {
             setGetNext(!getNext);
           }}
         >
-          GET NEXT SONG
+          CURRENT SONG
         </button>
       </div>
 

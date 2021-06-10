@@ -24,6 +24,10 @@ const SongCover = (props) => {
     }
   }, [base64, changeBG]);
 
+  useEffect(() => {
+    
+  }, [])
+
   return (
     <>
       {base64 ? (
@@ -32,16 +36,18 @@ const SongCover = (props) => {
           alt=""
           className="song-cover"
           crossOrigin="anonymous"
+          style={{display: "none"}}
         />
       ) : (
-        <img
+        <></>
+      )}
+      <img
           src={props.cover}
           alt=""
           className="song-cover"
           ref={img}
           crossOrigin="anonymous"
         />
-      )}
     </>
   );
 };

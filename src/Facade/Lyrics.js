@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Lyrics = (props) => {
+  useEffect(() => {
+    document.querySelector(".lyrics-wrapper").scrollTop = 0;
+  }, []);
+
   return (
     <div className="lyrics-wrapper">
       <p className="lyrics">

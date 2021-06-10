@@ -7491,3 +7491,390 @@ Compiling...
 Compiled successfully!
 Compiling...
 Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (20:3)
+
+  18 |   background-color: #e5d1bd;
+  19 |   color: #242424;
+> 20 |   tex
+     |   ^
+  21 | }
+  22 |
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (231:3)
+
+  229 |   display: flex;
+  230 |   align-items: center;
+> 231 |   sp
+      |   ^
+  232 | }
+  233 | .song-info button:hover{
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (232:3)
+
+  230 |   align-items: center;
+  231 |   white-space: nowrap;
+> 232 |   tex
+      |   ^
+  233 | }
+  234 | .song-info button:hover{
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_14_51_771Z-debug.log
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_37_51_466Z-debug.log
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_38_17_006Z-debug.log
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_38_37_962Z-debug.log
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_41_25_814Z-debug.log
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Failed to compile.
+
+Cannot read property 'type' of undefined
+Occurred while linting /home/amine/lyrics-on-spotify/src/Facade/SongCover.js:27
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (42:7)
+
+  40 |       ) : (
+  41 |         
+> 42 |       )}
+     |       ^
+  43 |     </>
+  44 |   );
+  45 | };
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (42:7)
+
+  40 |       ) : (
+  41 |         
+> 42 |       )}
+     |       ^
+  43 |       <img
+  44 |           src={props.cover}
+  45 |           alt=""
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (42:7)
+
+  40 |       ) : (
+  41 |         <
+> 42 |       )}
+     |       ^
+  43 |       <img
+  44 |           src={props.cover}
+  45 |           alt=""
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 39:11:  Style prop value must be an object  react/style-prop-object
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unterminated regular expression. (40:10)
+
+  38 |           crossOrigin="anonymous"
+  39 |           style=
+> 40 |         />
+     |          ^
+  41 |       ) : (
+  42 |         <></>
+  43 |       )}
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (206:3)
+
+  204 |   grid-row: 1/8;
+  205 |   padding: 1rem;
+> 206 |   trans
+      |   ^
+  207 | }
+  208 |
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Lyrics.js
+  Line 6:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 6:5:  'doc' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Lyrics.js
+Syntax error: Unexpected token (7:3)
+
+   5 |   useEffect(() => {
+   6 |     document.
+>  7 |   }, [])
+     |   ^
+   8 |
+   9 |   return (
+  10 |     <div className="lyrics-wrapper">
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Lyrics.js
+  Line 6:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!

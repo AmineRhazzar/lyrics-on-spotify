@@ -10,3 +10,87 @@
 listening on port 8888
 (node:51671) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@1.0.0 server: `nodemon app.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@1.0.0 server script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_14_51_781Z-debug.log
+
+> lyrics-on-spotify@1.0.0 server /home/amine/lyrics-on-spotify/server
+> nodemon app.js
+
+[33m[nodemon] 2.0.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+listening on port 8888
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@1.0.0 server: `nodemon app.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@1.0.0 server script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_37_51_479Z-debug.log
+
+> lyrics-on-spotify@1.0.0 server /home/amine/lyrics-on-spotify/server
+> nodemon app.js
+
+[33m[nodemon] 2.0.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+listening on port 8888
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@1.0.0 server: `nodemon app.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@1.0.0 server script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_38_17_011Z-debug.log
+
+> lyrics-on-spotify@1.0.0 server /home/amine/lyrics-on-spotify/server
+> nodemon app.js
+
+[33m[nodemon] 2.0.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+listening on port 8888
+(node:67998) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! lyrics-on-spotify@1.0.0 server: `nodemon app.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the lyrics-on-spotify@1.0.0 server script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/amine/.npm/_logs/2021-06-10T11_41_25_816Z-debug.log
+
+> lyrics-on-spotify@1.0.0 server /home/amine/lyrics-on-spotify/server
+> nodemon app.js
+
+[33m[nodemon] 2.0.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+listening on port 8888
+(node:73020) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

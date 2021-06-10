@@ -1,4 +1,4 @@
-const getAverageRGB = (imgEl) => {
+function getAverageRGB(imgEl) {
   var blockSize = 5, // only visit every 5 pixels
     defaultRGB = { r: 0, g: 0, b: 0 }, // for non-supporting envs
     canvas = document.createElement("canvas"),
@@ -24,7 +24,7 @@ const getAverageRGB = (imgEl) => {
   try {
     data = context.getImageData(0, 0, width, height);
   } catch (e) {
-    console.log(e);
+    /* security error, img on diff domain */ alert("x");
     return defaultRGB;
   }
 
@@ -37,15 +37,13 @@ const getAverageRGB = (imgEl) => {
     rgb.b += data.data[i + 2];
   }
 
-  console.log(rgb);
-
   // ~~ used to floor values
   rgb.r = ~~(rgb.r / count);
   rgb.g = ~~(rgb.g / count);
   rgb.b = ~~(rgb.b / count);
 
   return rgb;
-};
+}
 
 const getDataUrl = (img) => {
   // Create canvas

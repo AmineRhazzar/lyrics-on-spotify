@@ -4,25 +4,25 @@ import { getDataUrl } from "./utils";
 const SongCover = (props) => {
   const [base64, setBase64] = useState("");
   var img = useRef(null);
-  const [once, setOnce] = useState(false);
+    
+    var changeBG = props.changeBG;
 
   useEffect(() => {
     try {
       img.current.addEventListener("load", (e) => {
-        if (!once) {
+        if (!base64) {
           setBase64(getDataUrl(e.target));
-          setOnce(true);
         }
       });
     } catch (e) {}
-  }, [props.cover, once]);
+  }, [props.cover, base64]);
 
   useEffect(() => {
-    
-    if (base64 && !once) {
-      props.changeBG();
+
+    if (base64) {
+      changeBG();
     }
-  }, [base64, once]);
+  }, [base64, changeBG]);
 
   return (
     <>

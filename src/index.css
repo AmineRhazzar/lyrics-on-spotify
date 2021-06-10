@@ -234,6 +234,7 @@ main {
 
 .song-cover{
   max-width: 13rem;
+  border: 2px solid wheat; 
 }
 
 .song-info-text{

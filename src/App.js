@@ -55,7 +55,6 @@ function App() {
       )
         .then((res) => res.json())
         .then((resJson) => {
-          console.log(resJson["access_token"]);
           setAccessToken(resJson["access_token"]);
         })
         .catch((err) => {});

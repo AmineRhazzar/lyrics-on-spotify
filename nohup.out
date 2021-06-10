@@ -1,0 +1,4608 @@
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+
+> lyrics-on-spotify@0.1.0 start /home/amine/lyrics-on-spotify
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.1.10/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/amine/lyrics-on-spotify/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view lyrics-on-spotify in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Module not found: Can't resolve './' in '/home/amine/lyrics-on-spotify/src/Facade'
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected keyword 'return'. (9:5)
+
+   7 |     const 
+   8 |     
+>  9 |     return (<div className="facade">
+     |     ^
+  10 |         <LyricsContainer accessToken={props.accessToken }/>
+  11 |     </div>);
+  12 | }
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: 'Const declarations' require an initialization value. (7:14)
+
+   5 | const Facade = (props) => {
+   6 |
+>  7 |     const rgb 
+     |              ^
+   8 |     
+   9 |     return (<div className="facade">
+  10 |         <LyricsContainer accessToken={props.accessToken }/>
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (7:5)
+
+   5 | const Facade = (props) => {
+   6 |
+>  7 |     try {
+     |     ^
+   8 |         
+   9 |     }
+  10 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (7:5)
+
+   5 | const Facade = (props) => {
+   6 |
+>  7 |     try {
+     |     ^
+   8 |         
+   9 |     }
+  10 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (9:5)
+
+   7 |     try {
+   8 |         var rgb = 
+>  9 |     }
+     |     ^
+  10 |     
+  11 |     return (<div className="facade">
+  12 |         <LyricsContainer accessToken={props.accessToken }/>
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (9:5)
+
+   7 |     try {
+   8 |         var rgb = 
+>  9 |     }catch(er => )
+     |     ^
+  10 |     
+  11 |     return (<div className="facade">
+  12 |         <LyricsContainer accessToken={props.accessToken }/>
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (9:5)
+
+   7 |     try {
+   8 |         var rgb = 
+>  9 |     }catch(er => {})
+     |     ^
+  10 |     
+  11 |     return (<div className="facade">
+  12 |         <LyricsContainer accessToken={props.accessToken }/>
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (9:5)
+
+   7 |     try {
+   8 |         var rgb = 
+>  9 |     }catch(er)
+     |     ^
+  10 |     
+  11 |     return (<div className="facade">
+  12 |         <LyricsContainer accessToken={props.accessToken }/>
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (9:5)
+
+   7 |     try {
+   8 |         var rgb = 
+>  9 |     } catch (er) {
+     |     ^
+  10 |         
+  11 |     }
+  12 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:13:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (8:42)
+
+   6 |
+   7 |     try {
+>  8 |         var rgb = getAverageRGB(document.)
+     |                                          ^
+   9 |     } catch (er) {
+  10 |         
+  11 |     }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:13:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:13:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:13:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:13:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected reserved word 'await'. (8:19)
+
+   6 |
+   7 |     try {
+>  8 |         var rgb = await getAverageRGB(document.querySelector(".song-cover"))
+     |                   ^
+   9 |         console.log(rgb);
+  10 |     } catch (er) {
+  11 |
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:21:  'rgb' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 7:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 7:5:  'use' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:25:  'rgb' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:25:  'rgb' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:25:  'rgb' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Failed to compile.
+
+./src/Facade/getAvgRGB.js
+Error: ENOENT: no such file or directory, open '/home/amine/lyrics-on-spotify/src/Facade/getAvgRGB.js'
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Missing semicolon. (45:20)
+
+  43 |   rgb.b = ~~(rgb.b / count);
+  44 |
+> 45 |   return rgfunction getDataUrl(img) {
+     |                    ^
+  46 |    // Create canvas
+  47 |    const canvas = document.createElement('canvas');
+  48 |    const ctx = canvas.getContext('2d');
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 48:10:  'getDataUrl' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Unexpected token, expected "," (63:30)
+
+  61 |
+  62 |
+> 63 | export default {getAverageRGB;
+     |                              ^
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:8:  'getAverageRGB' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:31)
+
+   8 |         try {
+   9 |             if (document.querySelector(".song-cover")) {
+> 10 |                 var dataUrl = ;
+     |                               ^
+  11 |             }
+  12 |         } catch (er) { }
+  13 |     }, []);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:29)
+
+   8 |         try {
+   9 |             if (document.querySelector(".song-cover")) {
+> 10 |                 var base64= ;
+     |                             ^
+  11 |             }
+  12 |         } catch (er) { }
+  13 |     }, []);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:32)
+
+   8 |         try {
+   9 |             if (document.querySelector(".song-cover")) {
+> 10 |                 var base64Src= ;
+     |                                ^
+  11 |             }
+  12 |         } catch (er) { }
+  13 |     }, []);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:70)
+
+   8 |         try {
+   9 |             if (document.querySelector(".song-cover")) {
+> 10 |                 var base64Src= document.querySelector(".song-cover").;
+     |                                                                      ^
+  11 |             }
+  12 |         } catch (er) { }
+  13 |     }, []);
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used       no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used          no-unused-vars
+  Line 10:21:  'base64Src' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used       no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used          no-unused-vars
+  Line 10:21:  'base64Src' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:33)
+
+   8 |         try {
+   9 |             if (document.querySelector(".song-cover")) {
+> 10 |                 var base64Src = .src;
+     |                                 ^
+  11 |                 
+  12 |             }
+  13 |         } catch (er) { }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used       no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used          no-unused-vars
+  Line 10:21:  'base64Src' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used       no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used          no-unused-vars
+  Line 10:21:  'base64Src' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 10:17:  'src' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used     no-unused-vars
+  Line 10:21:  'src' is assigned a value but never used   no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used       no-unused-vars
+  Line 10:21:  'srcCDN' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used       no-unused-vars
+  Line 10:21:  'srcCDN' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (11:32)
+
+   9 |             if (document.querySelector(".song-cover")) {
+  10 |                 var srcCDN = document.querySelector(".song-cover").src;
+> 11 |                 var newdocument.createElement("img")
+     |                                ^
+  12 |                 
+  13 |             }
+  14 |         } catch (er) { }
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected keyword 'new'. (11:21)
+
+   9 |             if (document.querySelector(".song-cover")) {
+  10 |                 var srcCDN = document.querySelector(".song-cover").src;
+> 11 |                 var new document.createElement("img")
+     |                     ^
+  12 |                 
+  13 |             }
+  14 |         } catch (er) { }
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (11:35)
+
+   9 |             if (document.querySelector(".song-cover")) {
+  10 |                 var srcCDN = document.querySelector(".song-cover").src;
+> 11 |                 var newImgdocument.createElement("img")
+     |                                   ^
+  12 |                 
+  13 |             }
+  14 |         } catch (er) { }
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (11:36)
+
+   9 |             if (document.querySelector(".song-cover")) {
+  10 |                 var srcCDN = document.querySelector(".song-cover").src;
+> 11 |                 var baseImgdocument.createElement("img")
+     |                                    ^
+  12 |                 
+  13 |             }
+  14 |         } catch (er) { }
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (11:38)
+
+   9 |             if (document.querySelector(".song-cover")) {
+  10 |                 var srcCDN = document.querySelector(".song-cover").src;
+> 11 |                 var base64Imgdocument.createElement("img")
+     |                                      ^
+  12 |                 
+  13 |             }
+  14 |         } catch (er) { }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used       no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used          no-unused-vars
+  Line 10:21:  'srcCDN' is assigned a value but never used     no-unused-vars
+  Line 11:21:  'base64Img' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (14:13)
+
+  12 |                 base64Img.src = 
+  13 |                 
+> 14 |             }
+     |             ^
+  15 |         } catch (er) { }
+  16 |     }, []);
+  17 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:33:  'get' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Attempted import error: 'getDataUrl' is not exported from './utils'.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (14:13)
+
+  12 |                 base64Img.src = 
+  13 |                 
+> 14 |             }
+     |             ^
+  15 |         } catch (er) { }
+  16 |     }, []);
+  17 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used       no-unused-vars
+  Line 10:21:  'srcCDN' is assigned a value but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:   'getDataUrl' is defined but never used     no-unused-vars
+  Line 10:21:  'img' is assigned a value but never used   no-unused-vars
+
+src/Facade/utils.js
+  Line 60:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Attempted import error: 'getDataUrl' is not exported from './utils'.
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Attempted import error: 'getDataUrl' is not exported from './utils'.
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Missing semicolon. (48:25)
+
+  46 | };
+  47 |
+> 48 | const getDataUrl = (img) {
+     |                         ^
+  49 |   // Create canvas
+  50 |   const canvas = document.createElement("canvas");
+  51 |   const ctx = canvas.getContext("2d");
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Attempted import error: 'getDataUrl' is not exported from './utils'.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used     no-unused-vars
+  Line 11:21:  'dataUrl' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected reserved word 'await'. (11:31)
+
+   9 |             if (document.querySelector(".song-cover")) {
+  10 |                 var img = document.querySelector(".song-cover");
+> 11 |                 var dataUrl = await getDataUrl(img);
+     |                               ^
+  12 |                 console.log(dataUrl);
+  13 |
+  14 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:48:  Unexpected use of 'event'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Unexpected token, expected "," (61:1)
+
+  59 |
+  60 | export { getAverageRGB
+> 61 |
+     | ^
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 48:7:  'getDataUrl' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 48:7:  'getDataUrl' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Attempted import error: 'getDataUrl' is not exported from './utils'.
+Compiling...
+Failed to compile.
+
+./src/Facade/Facade.js
+Attempted import error: 'getDataUrl' is not exported from './utils'.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used     no-unused-vars
+  Line 13:27:  'dataUrl' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 13:27:  'dataUrl' is assigned a value but never used  no-unused-vars
+  Line 14:25:  'rgb' is assigned a value but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 14:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 14:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 15:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected keyword 'var'. (15:21)
+
+  13 |                     const dataUrl = getDataUrl(e.currentTarget);
+  14 |                     var 
+> 15 |                     var rgb = getAverageRGB(dataUrl);
+     |                     ^
+  16 |                 })
+  17 |
+  18 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (15:24)
+
+  13 |                     const dataUrl = getDataUrl(e.currentTarget);
+  14 |                     var base64Img = document.
+> 15 |                     var rgb = getAverageRGB(dataUrl);
+     |                        ^
+  16 |                 })
+  17 |
+  18 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+  Line 45:3:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (16:17)
+
+  14 |                     e.currentTarget.src = dataUrl;
+  15 |                     var rgb = 
+> 16 |                 })                
+     |                 ^
+  17 |             }
+  18 |         } catch (er) { }
+  19 |     }, []);
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 15:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 15:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 15:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (13:20)
+
+  11 |                 var img = document.querySelector(".song-cover");
+  12 |                 var 
+> 13 |                 img.addEventListener("load", (e) => {
+     |                    ^
+  14 |                     const dataUrl = getDataUrl(e.currentTarget);
+  15 |                     e.currentTarget.src = dataUrl;
+  16 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 12:21:  'once' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (18:21)
+
+  16 |                     if (once) {
+  17 |                         img.
+> 18 |                     }
+     |                     ^
+  19 |                 })                
+  20 |             }
+  21 |         } catch (er) { }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 16:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 12:21:  'once' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 12:21:  'once' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 12:21:  'once' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used  no-unused-vars
+  Line 12:21:  'once' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 16:25:  'rgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 16:33:  'done' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (10:14)
+
+   8 |
+   9 |     
+> 10 |     useEffect(() => {
+     |              ^
+  11 |         try {
+  12 |             if (document.querySelector(".song-cover")) {
+  13 |                 var img = document.querySelector(".song-cover");
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 7:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 7:5:  'rgb' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (7:39)
+
+   5 | const Facade = (props) => {
+   6 |
+>  7 |     const [rgb, setRgb] = useState({""})
+     |                                       ^
+   8 |
+   9 |     
+  10 |     useEffect(() => {
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (7:40)
+
+   5 | const Facade = (props) => {
+   6 |
+>  7 |     const [rgb, setRgb] = useState({"0"})
+     |                                        ^
+   8 |
+   9 |     
+  10 |     useEffect(() => {
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (17:30)
+
+  15 |                     const dataUrl = getDataUrl(e.currentTarget);
+  16 |                     e.currentTarget.src = dataUrl;
+> 17 |                     e.target.)
+     |                              ^
+  18 |                 })
+  19 |             }
+  20 |         } catch (er) { }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: 'Const declarations' require an initialization value. (11:14)
+
+   9 |     const 
+  10 |     
+> 11 |     useEffect(() => {
+     |              ^
+  12 |         try {
+  13 |             if (document.querySelector(".song-cover")) {
+  14 |                 var img = document.querySelector(".song-cover");
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used            no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used               no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 9:11:  'switchToBase64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 9:11:  'switchToBase64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: 'Const declarations' require an initialization value. (8:13)
+
+   6 |
+   7 |     const [rgb, setRgb] = useState({});
+>  8 |     const []
+     |             ^
+   9 |     const switchToBase64 = (e) => {
+  10 |       const dataUrl = getDataUrl(e.currentTarget);
+  11 |       e.currentTarget.src = dataUrl;
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: 'Const declarations' require an initialization value. (8:17)
+
+   6 |
+   7 |     const [rgb, setRgb] = useState({});
+>  8 |     const [once]
+     |                 ^
+   9 |     const switchToBase64 = (e) => {
+  10 |       const dataUrl = getDataUrl(e.currentTarget);
+  11 |       e.currentTarget.src = dataUrl;
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: 'Const declarations' require an initialization value. (8:26)
+
+   6 |
+   7 |     const [rgb, setRgb] = useState({});
+>  8 |     const [once, setOnce]
+     |                          ^
+   9 |     const switchToBase64 = (e) => {
+  10 |       const dataUrl = getDataUrl(e.currentTarget);
+  11 |       e.currentTarget.src = dataUrl;
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used     no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used      no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used   no-unused-vars
+  Line 8:12:  'once' is assigned a value but never used     no-unused-vars
+  Line 8:18:  'setOnce' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 12:9:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 12:9:  'set' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+  Line 8:12:  'once' is assigned a value but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (23:5)
+
+  21 |         } catch (er) { }
+  22 |         if(once)
+> 23 |     }, [once]);
+     |     ^
+  24 |     
+  25 |     
+  26 |     return (<div className="facade">
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (24:9)
+
+  22 |         if (once) {
+  23 |             document.querySelector(".song-cover").
+> 24 |         }
+     |         ^
+  25 |     }, [once]);
+  26 |     
+  27 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used     no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used      no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used   no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used     no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used      no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used   no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used  no-unused-vars
+  Line 19:21:  'img' is assigned a value but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+  Line 19:21:  'img' is assigned a value but never used             no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (25:18)
+
+  23 |                   // setOnce(true);
+  24 |                   // console.log("done");
+> 25 |                 };)
+     |                  ^
+  26 |             }
+  27 |         } catch (er) { }
+  28 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (25:18)
+
+  23 |                   setOnce(true);
+  24 |                   console.log("done");
+> 25 |                 };)
+     |                  ^
+  26 |             }
+  27 |         } catch (er) { }
+  28 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (28:18)
+
+  26 |                   setOnce(true);
+  27 |                   console.log("done");
+> 28 |                 };)
+     |                  ^
+  29 |             }
+  30 |         } catch (er) { }
+  31 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (28:18)
+
+  26 |                   setOnce(true);
+  27 |                   console.log("done");
+> 28 |                 };)
+     |                  ^
+  29 |             }
+  30 |         } catch (er) { }
+  31 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (28:18)
+
+  26 |                   
+  27 |                   console.log("done");
+> 28 |                 };)
+     |                  ^
+  29 |             }
+  30 |         } catch (er) { }
+  31 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (29:18)
+
+  27 |                   
+  28 |                   console.log("done");
+> 29 |                 };)
+     |                  ^
+  30 |             }
+  31 |         } catch (er) { }
+  32 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (29:18)
+
+  27 |                   
+  28 |                   
+> 29 |                 };)
+     |                  ^
+  30 |             }
+  31 |         } catch (er) { }
+  32 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (30:18)
+
+  28 |                   
+  29 |                   
+> 30 |                 };)
+     |                  ^
+  31 |             }
+  32 |         } catch (er) { }
+  33 |     }, [once]);
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used            no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:9:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 9:11:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used            no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:9:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 9:11:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (27:14)
+
+  25 |           }
+  26 |         });
+> 27 |           if()
+     |              ^
+  28 |       }
+  29 |     } catch (er) {}
+  30 |   }, [once]);
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used            no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:9:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 9:11:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used            no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:9:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 9:11:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used            no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used             no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:9:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 9:11:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (30:18)
+
+  28 |                   
+  29 |                   
+> 30 |                 };)
+     |                  ^
+  31 |             }
+  32 |         } catch (er) { }
+  33 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (29:18)
+
+  27 |                   
+  28 |                   
+> 29 |                 };)
+     |                  ^
+  30 |             }
+  31 |         } catch (er) { }
+  32 |     }, [once]);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (25:18)
+
+  23 |                   setOnce(true);
+  24 |                   console.log("done");
+> 25 |                 };)
+     |                  ^
+  26 |             }
+  27 |         } catch (er) { }
+  28 |     }, [once]);
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used     no-unused-vars
+  Line 3:24:  'getDataUrl' is defined but never used        no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used      no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used   no-unused-vars
+  Line 8:18:  'setOnce' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (22:17)
+
+  20 |                 img.addEventListener("load", (e) => {
+  21 |                     img.
+> 22 |                 })
+     |                 ^
+  23 |             }
+  24 |         } catch (er) { }
+  25 |     }, [once]);
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing semicolon. (22:24)
+
+  20 |                 img.addEventListener("load", (e) => {
+  21 |                     var 
+> 22 |                     img.replaceWith()
+     |                        ^
+  23 |                 })
+  24 |             }
+  25 |         } catch (er) { }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+  Line 21:25:  'base' is defined but never used                     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+  Line 21:25:  'base6' is defined but never used                    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+  Line 21:25:  'base64img' is assigned a value but never used       no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+  Line 22:30:  Expected dot to be on same line as property          dot-location
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:12:   'once' is assigned a value but never used            no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:12:   'once' is assigned a value but never used            no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:12:   'once' is assigned a value but never used            no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:12:   'once' is assigned a value but never used            no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:12:   'once' is assigned a value but never used            no-unused-vars
+  Line 8:18:   'setOnce' is assigned a value but never used         no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'set' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 25:21:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 25:21:  'setChanged' is not defined                                            no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:    'getAverageRGB' is defined but never used            no-unused-vars
+  Line 7:12:   'rgb' is assigned a value but never used             no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used          no-unused-vars
+  Line 8:12:   'srcIsChanged' is assigned a value but never used    no-unused-vars
+  Line 9:11:   'switchToBase64' is assigned a value but never used  no-unused-vars
+  Line 10:13:  'dataUrl' is assigned a value but never used         no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used          no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used           no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used        no-unused-vars
+  Line 8:12:  'srcIsChanged' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used          no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used           no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used        no-unused-vars
+  Line 8:12:  'srcIsChanged' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used          no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used           no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used        no-unused-vars
+  Line 8:12:  'srcIsChanged' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 28:9:  'src' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:9:   'getAverageRGB' is defined but never used    no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (29:9)
+
+  27 |         if (srcIsChanged) {
+  28 |             var rgb = 
+> 29 |         }
+     |         ^
+  30 |     }, [srcIsChanged])
+  31 |
+  32 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 28:23:  's' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (29:9)
+
+  27 |         if (srcIsChanged) {
+  28 |             var rgb = 
+> 29 |         }
+     |         ^
+  30 |     }, [srcIsChanged])
+  31 |
+  32 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 7:12:   'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used  no-unused-vars
+  Line 28:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 7:12:   'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used  no-unused-vars
+  Line 28:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 7:12:   'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:   'setRgb' is assigned a value but never used  no-unused-vars
+  Line 28:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 6:10:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             
+  28 |         }
+  29 |       document.querySelector(".song-cover").addEventListener("load", () => {
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             
+  28 |         }
+  29 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (30:14)
+
+  28 |         var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |         console.log(rgb);
+> 30 |             }catch (e) {
+     |              ^
+  31 |             
+  32 |         }
+  33 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (34:7)
+
+  32 |         }
+  33 |       
+> 34 |       });
+     |       ^
+  35 |     }
+  36 |   }, [srcIsChanged]);
+  37 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |         var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |         console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |                 var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |         console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |                 var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |                 console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |                 var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |                 console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |             document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |                 var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |                 console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |               document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |                   var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |                   console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (26:11)
+
+  24 |   useEffect(() => {
+  25 |       if (srcIsChanged) {
+> 26 |           try {
+     |           ^
+  27 |               document.querySelector(".song-cover").addEventListener("load", () => {
+  28 |                   var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  29 |                   console.log(rgb);
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (34:5)
+
+  32 |       
+  33 |       }
+> 34 |     }
+     |     ^
+  35 |   }, [srcIsChanged]);
+  36 |
+  37 |   return (
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (32:7)
+
+  30 |               }
+  31 |       
+> 32 |       }
+     |       ^
+  33 |     }
+  34 |   }, [srcIsChanged]);
+  35 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (34:3)
+
+  32 |       }
+  33 |     }
+> 34 |   }, [srcIsChanged]);
+     |   ^
+  35 |
+  36 |   return (
+  37 |     <div className="facade">
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "," (30:3)
+
+  28 |       }
+  29 |     }
+> 30 |   }, [srcIsChanged]);
+     |   ^
+  31 |
+  32 |   return (
+  33 |     <div className="facade">
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token, expected "{" (28:7)
+
+  26 |           try
+  27 |       
+> 28 |       }
+     |       ^
+  29 |     }, [srcIsChanged]);
+  30 |
+  31 |   return (
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 3:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 6:10:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 6:10:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 6:10:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 6:10:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 6:15:  'setRgb' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/LyricsContainer.js
+  Line 60:10:  'SongCover' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/Facade/LyricsContainer.js
+Attempted import error: './SongCover' does not contain a default export (imported as 'SongCover').
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (5:1)
+
+  3 | const SongCover = (props) => {
+  4 |     return <
+> 5 | }
+    | ^
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (5:1)
+
+  3 | const SongCover = (props) => {
+  4 |     return <img src={props.cover}
+> 5 | }
+    | ^
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (5:1)
+
+  3 | const SongCover = (props) => {
+  4 |     return <img src={props.cover} alt=""
+> 5 | }
+    | ^
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (5:1)
+
+  3 | const SongCover = (props) => {
+  4 |     return <img src={props.cover} alt="" className=""
+> 5 | }
+    | ^
+Compiling...
+Failed to compile.
+
+./src/Facade/LyricsContainer.js
+Attempted import error: './SongCover' does not contain a default export (imported as 'SongCover').
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "{" (7:8)
+
+  5 | };
+  6 |
+> 7 | export defa
+    |        ^
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/LyricsContainer.js
+  Line 3:37:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 3:37:  'Z' is not defined                                                     no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/LyricsContainer.js
+  Line 61:27:  's' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 5:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 5:5:  'us' is not defined                                                    no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+Cannot read property 'type' of undefined
+Occurred while linting /home/amine/lyrics-on-spotify/src/Facade/SongCover.js:5
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing semicolon. (6:14)
+
+  4 |     var
+  5 |
+> 6 |     useEffect(() => {
+    |              ^
+  7 |         
+  8 |     }, [])
+  9 |
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 4:15:  'use' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 4:15:  'useR' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: JSX attributes must only be assigned a non-empty expression. (10:69)
+
+   8 |     }, [])
+   9 |
+> 10 |     return <img src={props.cover} alt="" className="song-cover" ref={ }/>;
+     |                                                                     ^
+  11 | };
+  12 |
+  13 | export default SongCover;
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 7:9:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used      no-unused-vars
+  Line 1:28:  'useState' is defined but never used       no-unused-vars
+  Line 3:10:  'getAverageRGB' is defined but never used  no-unused-vars
+  Line 3:25:  'getDataUrl' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 8:13:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (9:9)
+
+   7 |         img.current.addEventListener("load", () => {
+   8 |             img.current.src = 
+>  9 |         })
+     |         ^
+  10 |     }, [])
+  11 |
+  12 |     return <img src={props.cover} alt="" className="song-cover" ref={ img}/>;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 8:31:  'get' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (9:9)
+
+   7 |         img.current.addEventListener("load", () => {
+   8 |             img.current.src = 
+>  9 |         })
+     |         ^
+  10 |     }, [])
+  11 |
+  12 |     return <img src={props.cover} alt="" className="song-cover" ref={ img}/>;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (9:9)
+
+   7 |         img.current.addEventListener("load", () => {
+   8 |             img.current.src = 
+>  9 |         })
+     |         ^
+  10 |     }, [])
+  11 |
+  12 |     return <img src={props.cover} alt="" className="song-cover" ref={ img}/>;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (10:9)
+
+   8 |         img.current.addEventListener("load", () => {
+   9 |             img.current.src = 
+> 10 |         })
+     |         ^
+  11 |     }, [])
+  12 |
+  13 |     return <img src={props.cover} alt="" className="song-cover" ref={ img}/>;
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 5:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 5:5:  'use' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 5:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (6:5)
+
+  4 | const SongCover = (props) => {
+  5 |     const [baseuseState
+> 6 |     var img = useRef(null);
+    |     ^
+  7 |
+  8 |     useEffect(() => {
+  9 |         img.current.addEventListener("load", () => {
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (6:5)
+
+  4 | const SongCover = (props) => {
+  5 |     const [base64, setbauseState
+> 6 |     var img = useRef(null);
+    |     ^
+  7 |
+  8 |     useEffect(() => {
+  9 |         img.current.addEventListener("load", () => {
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used       no-unused-vars
+  Line 5:12:  'base64' is assigned a value but never used     no-unused-vars
+  Line 5:20:  'setBase64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used       no-unused-vars
+  Line 5:12:  'base64' is assigned a value but never used     no-unused-vars
+  Line 5:20:  'setBase64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 2:25:  'getDataUrl' is defined but never used       no-unused-vars
+  Line 5:12:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 5:12:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 5:12:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (18:13)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return {<img src={props.cover} alt="" className="song-cover" ref={ img} crossOrigin="anonymous"/>;
+     |             ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (18:13)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return {< img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />};
+     |             ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:19)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return {base64? < img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />};
+     |                   ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:19)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return {base64? < img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />< img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />};
+     |                   ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:19)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return {base64? < img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />:< img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />};
+     |                   ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:20)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return ({base64? < img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />:< img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />};
+     |                    ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:20)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return ({base64? < img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />:< img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />});
+     |                    ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:19)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return {base64? < img src = { props.cover } alt = "" className = "song-cover" ref = { img } crossOrigin = "anonymous" />};
+     |                   ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unterminated string constant. (18:88)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return <img src={props.cover} alt="" className="song-cover" ref={ img} crossOrigin="anonymous/>;
+     |                                                                                        ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unterminated string constant. (18:88)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return <img src={props.cover} alt="" className="song-cover" ref={ img} crossOrigin="a/>;
+     |                                                                                        ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (18:102)
+
+  16 |     }, [base64]);
+  17 |
+> 18 |     return (<img src={props.cover} alt="" className="song-cover" ref={ img} crossOrigin="anonymous"/>;
+     |                                                                                                      ^
+  19 | };
+  20 |
+  21 | export default SongCover;
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (20:98)
+
+  18 |     return (
+  19 |         base64?
+> 20 |         <img src={props.cover} alt="" className="song-cover" ref={img} crossOrigin="anonymous" />);
+     |                                                                                                  ^
+  21 | };
+  22 |
+  23 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (21:9)
+
+  19 |         base64?
+  20 |             <img src={props.cover} alt="" className="song-cover" ref={img} crossOrigin="anonymous" /> :
+> 21 |         );
+     |         ^
+  22 | };
+  23 |
+  24 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (21:61)
+
+  19 |         base64?
+  20 |             <img src={props.cover} alt="" className="song-cover" ref={img} crossOrigin="anonymous" /> :
+> 21 |         <img src={props.cover} alt="" className="song-cover");
+     |                                                             ^
+  22 | };
+  23 |
+  24 | export default SongCover;
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (21:62)
+
+  19 |         base64?
+  20 |             <img src={props.cover} alt="" className="song-cover" ref={img} crossOrigin="anonymous" /> :
+> 21 |         <img src={props.cover} alt="" className="song-cover" );
+     |                                                              ^
+  22 | };
+  23 |
+  24 | export default SongCover;
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing semicolon. (26:4)
+
+  24 |       crossOrigin="anonymous"
+  25 |     />
+> 26 |   ) : (
+     |    ^
+  27 |     <img src={props.cover} alt="" className="song-cover" />
+  28 |   );
+  29 | };
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (27:3)
+
+  25 |       crossOrigin="anonymous"
+  26 |     />
+> 27 |   ) : (
+     |   ^
+  28 |     <img src={props.cover} alt="" className="song-cover" />
+  29 |   );
+  30 | };
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unterminated JSX contents. (27:60)
+
+  25 |     />
+  26 |   ) : (
+> 27 |     <img src={props.cover} alt="" className="song-cover" />
+     |                                                            ^
+  28 |   );
+  29 | };
+  30 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 1:8:   'React' is defined but never used            no-unused-vars
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 5:10:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 5:10:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 5:10:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used    no-unused-vars
+  Line 5:10:  'base64' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "}" (29:4)
+
+  27 |   ) : (
+  28 |     <img src={props.cover} alt="" className="song-cover" />
+> 29 |   );}
+     |    ^
+  30 |     </>)
+  31 | };
+  32 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (22:7)
+
+  20 |       {base64 ? (
+  21 |         
+> 22 |       ) : (
+     |       ^
+  23 |         <img src={props.cover} alt="" className="song-cover" />
+  24 |       )}
+  25 |     </>
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (24:7)
+
+  22 |       ) : (
+  23 |         
+> 24 |       )}
+     |       ^
+  25 |     </>
+  26 |   );
+  27 | };
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing catch or finally clause. (9:9)
+
+   7 |
+   8 |     useEffect(() => {
+>  9 |         try {
+     |         ^
+  10 |             
+  11 |         }
+  12 |     img.current.addEventListener("load", (e) => {
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing catch or finally clause. (9:9)
+
+   7 |
+   8 |     useEffect(() => {
+>  9 |         try {
+     |         ^
+  10 |             
+  11 |         }
+  12 |
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing catch or finally clause. (9:9)
+
+   7 |
+   8 |     useEffect(() => {
+>  9 |         try {
+     |         ^
+  10 |             img.current.addEventListener("load", (e) => {
+  11 |       setBase64(getDataUrl(e.target));
+  12 |     });
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing catch or finally clause. (9:9)
+
+   7 |
+   8 |     useEffect(() => {
+>  9 |         try {
+     |         ^
+  10 |             img.current.addEventListener("load", (e) => {
+  11 |       setBase64(getDataUrl(e.target));
+  12 |     });
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 18:13:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 18:13:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 18:28:  'bas' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: JSX attributes must only be assigned a non-empty expression. (9:69)
+
+   7 |   return (
+   8 |     <div className="facade">
+>  9 |           <LyricsContainer accessToken={props.accessToken} changeBG={ }/>
+     |                                                                     ^
+  10 |     </div>
+  11 |   );
+  12 | };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 9:71:  'changeBG' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 10:71:  'changeBG' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: 'Const declarations' require an initialization value. (7:19)
+
+   5 | const Facade = (props) => {
+   6 |
+>  7 |     const changeBG
+     |                   ^
+   8 |
+   9 |   return (
+  10 |     <div className="facade">
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:28:  'useState' is defined but never used   no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

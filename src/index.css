@@ -14,6 +14,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+::selection{
+  background-color: #e5d1bd;
+  color: #242424;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   border: 2px solid #242424;
@@ -186,6 +191,11 @@ main {
   height: 2rem;
   cursor: pointer;
   margin: 0 1rem;
+}
+
+.control-btns svg:nth-of-type(2){
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .facade {

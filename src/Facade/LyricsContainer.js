@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Lyrics from "./Lyrics";
+import SongCover from "./SongCover";
 
 const LyricsContainer = (props) => {
   const [lyrics, setLyrics] = useState("");
@@ -57,7 +58,7 @@ const LyricsContainer = (props) => {
   return (
     <div className="lyrics-cont">
       <div className="song-info">
-        <img src={songInfo.cover} alt="" className="song-cover" />
+        <SongCover cover={songInfo.cover} changeBG={ props.changeBG}/>
         <div className="song-info-text">
           <h1 className="song-title">{songInfo.name}</h1>
           <p className="song-artist">

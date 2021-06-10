@@ -7878,3 +7878,600 @@ Compiling...
 Compiled successfully!
 Compiling...
 Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:14)
+
+   8 |         try {
+   9 |           var { r, g, b } = getAverageRGB(document.querySelector(".song-cover"));
+> 10 |           if()
+     |              ^
+  11 |             document.querySelector(
+  12 |               ".facade"
+  13 |             ).style.backgroundImage = `linear-gradient(rgb(${r}, ${g}, ${b}), rgb(0,0,0))`;
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:25)
+
+   8 |         try {
+   9 |           var { r, g, b } = getAverageRGB(document.querySelector(".song-cover"));
+> 10 |           if((r+g+b)/3 <)
+     |                         ^
+  11 |             document.querySelector(
+  12 |               ".facade"
+  13 |             ).style.backgroundImage = `linear-gradient(rgb(${r}, ${g}, ${b}), rgb(0,0,0))`;
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (10:27)
+
+   8 |         try {
+   9 |           var { r, g, b } = getAverageRGB(document.querySelector(".song-cover"));
+> 10 |           if((r+g+b)/3 <= )
+     |                           ^
+  11 |             document.querySelector(
+  12 |               ".facade"
+  13 |             ).style.backgroundImage = `linear-gradient(rgb(${r}, ${g}, ${b}), rgb(0,0,0))`;
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 11:13:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+Cannot read property 'type' of undefined
+Occurred while linting /home/amine/lyrics-on-spotify/src/Facade/Facade.js:21
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (26:3)
+
+  24 |         ).style.
+  25 |     
+> 26 |   }, [])
+     |   ^
+  27 |
+  28 |   return (
+  29 |     <div className="facade">
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (26:3)
+
+  24 |         ).style.opacity =
+  25 |     
+> 26 |   }, [])
+     |   ^
+  27 |
+  28 |   return (
+  29 |     <div className="facade">
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 26:5:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 26:5:  'RTCIdentityAssertion' is not defined                                  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 27:7:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (207:3)
+
+  205 |   padding: 1rem;
+  206 |   opacity: 0;
+> 207 |   x
+      |   ^
+  208 | }
+  209 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Missing semicolon. (1:30)
+
+> 1 | const getAverageRGB = (imgEl) {
+    |                              ^
+  2 |   var blockSize = 5, // only visit every 5 pixels
+  3 |     defaultRGB = { r: 0, g: 0, b: 0 }, // for non-supporting envs
+  4 |     canvas = document.createElement("canvas"),
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: 'Const declarations' require an initialization value. (60:13)
+
+  58 | };
+  59 |
+> 60 | const fadeIn
+     |             ^
+  61 |
+  62 | export { getAverageRGB, getDataUrl };
+  63 |
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+  Line 60:17:  'im' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+  Line 61:3:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Unexpected token (62:1)
+
+  60 | const fadeIn = (elem) => {
+  61 |   elem.
+> 62 | }
+     | ^
+  63 |
+  64 | export { getAverageRGB, getDataUrl };
+  65 |
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Unexpected token (62:1)
+
+  60 | const fadeIn = (elem) => {
+  61 |   elem.style.opacity = 
+> 62 | }
+     | ^
+  63 |
+  64 | export { getAverageRGB, getDataUrl };
+  65 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+Syntax error: Unexpected token (63:1)
+
+  61 |   elem.style.opacity = 0;
+  62 |   elem.style.
+> 63 | }
+     | ^
+  64 |
+  65 | export { getAverageRGB, getDataUrl };
+  66 |
+Compiling...
+Failed to compile.
+
+src/Facade/utils.js
+  Line 62:3:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/utils.js
+  Line 60:7:  'fadeIn' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Lyrics.js
+Syntax error: Unexpected token, expected "{" (4:1)
+
+  2 | import 
+  3 |
+> 4 | const Lyrics = (props) => {
+    | ^
+  5 |   useEffect(() => {
+  6 |     document.querySelector(".lyrics-wrapper").scrollTop = 0;
+  7 |   }, []);

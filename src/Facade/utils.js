@@ -1,4 +1,4 @@
-function getAverageRGB(imgEl) {
+const getAverageRGB = (imgEl) => {
   var blockSize = 5, // only visit every 5 pixels
     defaultRGB = { r: 0, g: 0, b: 0 }, // for non-supporting envs
     canvas = document.createElement("canvas"),
@@ -56,5 +56,11 @@ const getDataUrl = (img) => {
   ctx.drawImage(img, 0, 0);
   return canvas.toDataURL("image/jpeg");
 };
+
+const fadeIn = (elem) => {
+  elem.style.opacity = 0;
+  elem.style.setProperty('transition', '.3s all ease');
+  elem.style.opacity = 1;
+}
 
 export { getAverageRGB, getDataUrl };

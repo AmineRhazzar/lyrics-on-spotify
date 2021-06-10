@@ -4606,3 +4606,1945 @@ src/Facade/SongCover.js
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
 
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 7:12:  'rgb' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 7:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 7:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (10:9)
+
+   8 |
+   9 |     const changeBG = () => {
+> 10 |         try {
+     |         ^
+  11 |             
+  12 |         }
+  13 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (6:1)
+
+  4 |
+  5 |
+> 6 | const Facade = (props) => {
+    | ^
+  7 |
+  8 |     const [RGB, setRGB] = useState({})
+  9 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             
+  13 |         }
+  14 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             
+  13 |         }
+  14 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             getAverageRGB
+  13 |         }
+  14 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             var rgb = getAverageRGB
+  13 |         }
+  14 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             var rgb = getAverageRGB(document.querySelector(""))
+  13 |         }
+  14 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  13 |         }
+  14 |      };
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Missing catch or finally clause. (11:9)
+
+   9 |
+  10 |     const changeBG = () => {
+> 11 |         try {
+     |         ^
+  12 |             var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  13 |             
+  14 |         }
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (12:16)
+
+  10 |     const changeBG = () => {
+  11 |         try {
+> 12 |             if()
+     |                ^
+  13 |             var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  14 |             setRGB(rgb);
+  15 |         }catch(e){}
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (12:29)
+
+  10 |     const changeBG = () => {
+  11 |         try {
+> 12 |             console.log(RGB.)
+     |                             ^
+  13 |             var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  14 |             setRGB(rgb);
+  15 |         }catch(e){}
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getAverageRGB' is defined but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (26:7)
+
+  24 |       {base64 ? (
+  25 |         <img src={base64} alt="" className="song-cover" crossOrigin="anonymous"
+> 26 |       ) : (
+     |       ^
+  27 |         <img
+  28 |           src={props.cover}
+  29 |           alt=""
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 18:37:  'bac' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 18:37:  'background' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 18:49:  'linea' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+  Line 18:49:  'linear' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (18:49)
+
+  16 |
+  17 |   return (
+> 18 |     <div className="facade" style={{background: }}>
+     |                                                 ^
+  19 |           <LyricsContainer accessToken={props.accessToken} changeBG={ changeBG}/>
+  20 |     </div>
+  21 |   );
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used     no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:   'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:   'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:   'setRGB' is assigned a value but never used  no-unused-vars
+  Line 12:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:   'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:   'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:   'setRGB' is assigned a value but never used  no-unused-vars
+  Line 12:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:   'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:   'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:   'setRGB' is assigned a value but never used  no-unused-vars
+  Line 12:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (14:9)
+
+  12 |             var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  13 |             document.querySelector(".facade").style.backgroundColor = 
+> 14 |         }catch(e){}
+     |         ^
+  15 |      };
+  16 |
+  17 |   return (
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:   'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:   'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:   'setRGB' is assigned a value but never used  no-unused-vars
+  Line 12:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (14:9)
+
+  12 |             var rgb = getAverageRGB(document.querySelector(".song-cover"));
+  13 |             document.querySelector(".facade").style.backgroundColor = 
+> 14 |         }catch(e){}
+     |         ^
+  15 |      };
+  16 |
+  17 |   return (
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:   'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:   'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:   'setRGB' is assigned a value but never used  no-unused-vars
+  Line 12:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:   'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:   'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:   'setRGB' is assigned a value but never used  no-unused-vars
+  Line 12:17:  'rgb' is assigned a value but never used     no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (15:60)
+
+  13 |             document.querySelector(
+  14 |               ".facade"
+> 15 |             ).style.backgroundColor = `rgb(${rgb.r}, ${rgb.}, ${rgb.r}, )`;
+     |                                                            ^
+  16 |         }catch(e){}
+  17 |      };
+  18 |
+Compiling...
+Failed to compile.
+
+src/Facade/Facade.js
+Syntax error: Unexpected token (15:60)
+
+  13 |             document.querySelector(
+  14 |               ".facade"
+> 15 |             ).style.backgroundColor = `rgb(${rgb.r}, ${rgb.}, ${rgb.r}, )`;
+     |                                                            ^
+  16 |         }catch(e){}
+  17 |      };
+  18 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (266:3)
+
+  264 |   text-align: center;
+  265 |   font-size: 1.2rem;
+> 266 |   text
+      |   ^
+  267 | }
+  268 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/index.css (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css)
+Syntax error: Unknown word (267:3)
+
+  265 |   font-size: 1.2rem;
+  266 |   font
+> 267 |   text-shadow: 1px 0 1px black, 0 1px 1px black;
+      |   ^
+  268 | }
+  269 |
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (14:13)
+
+  12 |       });
+  13 |     } catch (e) {}
+> 14 |   }, [props.]);
+     |             ^
+  15 |
+  16 |     useEffect(() => {
+  17 |         if (base64) {
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing semicolon. (5:41)
+
+  3 |
+  4 | const SongCover = (props) => {
+> 5 |   const [base64, setBase64] = useState());
+    |                                         ^
+  6 |   var img = useRef(null);
+  7 |
+  8 |   useEffect(() => {
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 20:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 15:6:  React Hook useEffect has a missing dependency: 'base64'. Either include it or remove the dependency array                                                                                                                                                                                                   react-hooks/exhaustive-deps
+  Line 21:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 21:8:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 21:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 21:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 7:11:  'once' is assigned a value but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 22:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 7:11:  'once' is assigned a value but never used                                                                                                                                                                                                                                                                   no-unused-vars
+  Line 23:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 18:6:  React Hook useEffect has a missing dependency: 'once'. Either include it or remove the dependency array                                                                                                                                                                                                     react-hooks/exhaustive-deps
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 2:10:  'getDataUrl' is defined but never used                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 5:18:  'setBase64' is assigned a value but never used                                                                                                                                                                                                                                                              no-unused-vars
+  Line 18:6:  React Hook useEffect has a missing dependency: 'once'. Either include it or remove the dependency array                                                                                                                                                                                                     react-hooks/exhaustive-deps
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 18:6:  React Hook useEffect has a missing dependency: 'once'. Either include it or remove the dependency array                                                                                                                                                                                                     react-hooks/exhaustive-deps
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:11:  'once' is constant                                                                                                                                                                                                                                                                                          no-const-assign
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useEffect' is defined but never used        no-unused-vars
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 8:12:  'RGB' is assigned a value but never used     no-unused-vars
+  Line 8:17:  'setRGB' is assigned a value but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/Facade.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 7:21:  'falase' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Missing semicolon. (7:19)
+
+   5 |   const [base64, setBase64] = useState("");
+   6 |   var img = useRef(null);
+>  7 |   var once = false);
+     |                   ^
+   8 |
+   9 |   useEffect(() => {
+  10 |     try {
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 14:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 25:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 9:11:   'changeBG' is assigned a value but never used                                                                                                                                                                                                                                                               no-unused-vars
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 9:11:   'changeBG' is assigned a value but never used                                                                                                                                                                                                                                                               no-unused-vars
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token, expected "," (9:28)
+
+   7 |     var once = false;
+   8 |     
+>  9 |     const {changeBG = props;
+     |                            ^
+  10 |
+  11 |   useEffect(() => {
+  12 |     try {
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect                       react-hooks/exhaustive-deps
+  Line 27:6:   React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 7:16:   'setOnce' is assigned a value but never used                                                                                                                                                                                                                                           no-unused-vars
+  Line 16:11:  'once' is constant                                                                                                                                                                                                                                                                     no-const-assign
+  Line 16:18:  Assignments to the 'once' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 16:11:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 16:11:  'set' is not defined                                                   no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+Syntax error: Unexpected token (24:19)
+
+  22 |   useEffect(() => {
+  23 |     console.log(!!base64);
+> 24 |     if (base64 && ) {
+     |                   ^
+  25 |       changeBG();
+  26 |     }
+  27 |   }, [base64, changeBG]);
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 27:6:  React Hook useEffect has a missing dependency: 'once'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 27:6:  React Hook useEffect has a missing dependency: 'once'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 28:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+src/Facade/SongCover.js
+  Line 26:15:  'changeBG' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 26:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+src/Facade/SongCover.js
+  Line 25:6:  React Hook useEffect has a missing dependency: 'props'. Either include it or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

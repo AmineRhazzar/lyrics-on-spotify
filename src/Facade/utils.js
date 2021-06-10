@@ -24,7 +24,7 @@ const getAverageRGB = (imgEl) => {
   try {
     data = context.getImageData(0, 0, width, height);
   } catch (e) {
-    /* security error, img on diff domain */ alert("x");
+    console.log(e);
     return defaultRGB;
   }
 
@@ -36,6 +36,8 @@ const getAverageRGB = (imgEl) => {
     rgb.g += data.data[i + 1];
     rgb.b += data.data[i + 2];
   }
+
+  console.log(rgb);
 
   // ~~ used to floor values
   rgb.r = ~~(rgb.r / count);
@@ -55,6 +57,6 @@ const getDataUrl = (img) => {
   // Draw the image
   ctx.drawImage(img, 0, 0);
   return canvas.toDataURL("image/jpeg");
-}
+};
 
 export { getAverageRGB, getDataUrl };

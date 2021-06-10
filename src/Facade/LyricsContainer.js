@@ -4,7 +4,7 @@ import SongCover from "./SongCover";
 
 const LyricsContainer = (props) => {
   const [lyrics, setLyrics] = useState("");
-  const [refreshTimeout, setRefreshTimeout] = useState(false);
+  const [getNext, setGetNext] = useState(false);
   const [songInfo, setSongInfo] = useState({
     name: "",
     artists: [],
@@ -15,15 +15,13 @@ const LyricsContainer = (props) => {
     fetch("https://api.spotify.com/v1/me/player/currently-playing?market=MA", {
       method: "GET",
       headers: {
-        "Authorization": "Bearer " + props.accessToken,
-        "Accept": "application/json",
+        Authorization: "Bearer " + props.accessToken,
+        Accept: "application/json",
         "Content-Type": "application/json",
       },
     })
       .then((res) => res.json())
       .then((resJson) => {
-        setRefreshTimeout(resJson.item["duration_ms"]);
-
         setSongInfo({
           name: resJson.item.name,
           artists: resJson.item.artists,
@@ -48,26 +46,26 @@ const LyricsContainer = (props) => {
             setLyrics(resText);
           });
       })
-      .catch((err) => {});
-
-    // setTimeout(() => {
-    //   setRefreshTimeout(0);
-    // }, refreshTimeout);
-  }, [props.accessToken, lyrics, refreshTimeout]);
+      .catch((err) => { });
+  }, [props.accessToken, lyrics, getNext]);
 
   return (
     <div className="lyrics-cont">
       <div className="song-info">
-        <SongCover cover={songInfo.cover} changeBG={ props.changeBG}/>
+        <SongCover cover={songInfo.cover} changeBG={props.changeBG} />
         <div className="song-info-text">
           <h1 className="song-title">{songInfo.name}</h1>
           <p className="song-artist">
             {songInfo.artists.map((elem) => elem.name).join(", ")}
           </p>
         </div>
-        <button onClick={() => {
-          setRefreshTimeout(!refreshTimeout);
-        }}>GET NEXT SONG</button>
+        <button
+          onClick={() => {
+            setGetNext(!getNext);
+          }}
+        >
+          GET NEXT SONG
+        </button>
       </div>
 
       <Lyrics lyrics={lyrics} />

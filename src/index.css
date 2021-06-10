@@ -209,7 +209,6 @@ main {
   width: 100%;
   display: flex;
   margin-bottom: 2rem;
-  background-color: #242424;
 }
 
 .song-info button{
@@ -263,6 +262,8 @@ main {
 .lyrics{
   height: 100%;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-shadow: .5px 0 1px black, 0 .5px 1px black;
 }
 

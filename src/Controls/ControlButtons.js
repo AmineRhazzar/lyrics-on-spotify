@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ReactComponent as PlayIcon } from "./play.svg";
 import { ReactComponent as PauseIcon } from "./pause.svg";
 import { ReactComponent as NextTrackIcon } from "./next-track.svg";
@@ -7,110 +7,71 @@ import { ReactComponent as PrevTrackIcon } from "./prev-track.svg";
 const ControlButtons = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const setShowPremiumRequired = (state) => {
-    props.showErrorMsg(state);
-  };
+  useEffect(() => {
+    fetch("http://localhost:8888/playbackstatus")
+      .then((res) => res.text())
+      .then((resText) => {
+        console.log(resText);
+        if (resText == "") {
+          setIsPlaying(true);
+        } else if(resText == ""){
+          setIsPlaying(false);
+        }
+      })
+      .catch((err) => {});
+  }, []);
 
   const handleSetPlaying = () => {
-    if (isPlaying) {
-      fetch("	https://api.spotify.com/v1/me/player/pause", {
-        method: "PUT",
-        headers: {
-          Authorization: "Bearer " + props.accessToken,
-        },
+    fetch("http://localhost:8888/playpause", {
+      method: "PUT",
+    })
+      .then((res) => {
+        if (res.status === 204) {
+          setIsPlaying(!isPlaying);
+        }
       })
-        .then((res) => res.json())
-        .then((resJson) => {
-          if (resJson.error?.reason) {
-            setShowPremiumRequired(true);
-            setTimeout(() => {
-              setShowPremiumRequired(false);
-            }, 3000);
-          } else {
-            setIsPlaying(false);
-          }
-        })
-        .catch((err) => {
-          throw err;
-        });
-    } else {
-      fetch("	https://api.spotify.com/v1/me/player/play", {
-        method: "PUT",
-        headers: {
-          Authorization: "Bearer " + props.accessToken,
-        },
-      })
-          .then((res) => res.json())
-        .then((resJson) => {
-          if (resJson.error?.reason) {
-            setShowPremiumRequired(true);
-            setTimeout(() => {
-              if (document.querySelector(".error")) {
-                document.querySelector(".error").style.opacity = "0";
-              }
-              setTimeout(() => {
-                setShowPremiumRequired(false);
-              }, 300);
-            }, 2700);
-          }
-        })
-        .catch((err) => {
-          throw err;
-        });
-    }
+      .catch((err) => {});
   };
 
   const goNext = () => {
     fetch("http://localhost:8888/next", {
       method: "PUT",
-      headers: {
-        Authorization: "Bearer " + props.accessToken,
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
     })
-      .then((res) => res.json())
-      .then((resJson) => {
-        if (resJson.error?.reason) {
-          setShowPremiumRequired(true);
-          setTimeout(() => {
-            if (document.querySelector(".error")) {
-              document.querySelector(".error").style.opacity = "0";
-            }
-            setTimeout(() => {
-              setShowPremiumRequired(false);
-            }, 300);
-          }, 2700);
-        }
-      })
-      .catch((err) => {
-        throw err;
-      });
+      // .then((res) => res.json())
+      // .then((resJson) => {
+      //   if (resJson.error?.reason) {
+      //     setShowPremiumRequired(true);
+      //     setTimeout(() => {
+      //       if (document.querySelector(".error")) {
+      //         document.querySelector(".error").style.opacity = "0";
+      //       }
+      //       setTimeout(() => {
+      //         setShowPremiumRequired(false);
+      //       }, 300);
+      //     }, 2700);
+      //   }
+      // })
+      .catch((err) => {});
   };
 
   const goPrev = () => {
-    fetch("	https://api.spotify.com/v1/me/player/previous", {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer " + props.accessToken,
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
+    fetch("	http://localhost:8888/prev", {
+      method: "PUT",
     })
-      .then((res) => res.json())
-      .then((resJson) => {
-        if (resJson.error?.reason) {
-          setShowPremiumRequired(true);
-          setTimeout(() => {
-            if (document.querySelector(".error")) {
-              document.querySelector(".error").style.opacity = "0";
-            }
-            setTimeout(() => {
-              setShowPremiumRequired(false);
-            }, 300);
-          }, 2700);
-        }
-      })
+      // .then((res) => res.json())
+      // .then((resJson) => {
+      //   if (resJson.error?.reason) {
+      //     setShowPremiumRequired(true);
+      //     setTimeout(() => {
+      //       if (document.querySelector(".error")) {
+      //         document.querySelector(".error").style.opacity = "0";
+      //       }
+      //       setTimeout(() => {
+      //         setShowPremiumRequired(false);
+      //       }, 300);
+      //     }, 2700);
+      //   }
+      // })
       .catch((err) => {});
   };
 

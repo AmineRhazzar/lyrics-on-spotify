@@ -157,8 +157,41 @@ app.get("/refresh_token", function (req, res) {
 });
 
 app.put("/next", (req, res) => {
-  console.log("working");
-  shelljs.exec("bash ./next.sh");
+  try {
+    shelljs.exec("bash ./scripts/next.sh");
+    res.status(204);
+  } catch (e) {
+    res.status(400);
+  }
+})
+
+app.put("/prev", (req, res) => {
+  try {
+    shelljs.exec("bash ./scripts/prev.sh");
+    res.status(204);    
+  } catch (e) {
+    res.status(400);
+  }
+
+})
+
+app.put("/playpause", (req, res) => {
+  try {
+    shelljs.exec("bash ./scripts/playpause.sh");
+    res.status(204).send({});
+  } catch (e) {
+    res.status(400)
+  }
+  
+})
+
+app.get('/playbackstatus', (req, res) => {
+  try {
+    var playbackstatus = shelljs.exec("bash ./scripts/playbackstatus.sh").stdout;
+    res.send(playbackstatus);
+  } catch (e) {
+    res.status(400);
+  }
 })
 
 app.post("/get-lyrics", (req, res) => {

@@ -12,6 +12,7 @@ var request = require("request"); // "Request" library
 var cors = require("cors");
 var querystring = require("querystring");
 var cookieParser = require("cookie-parser");
+var shelljs = require("shelljs");
 require("dotenv").config();
 
 var app = express();
@@ -155,12 +156,19 @@ app.get("/refresh_token", function (req, res) {
   });
 });
 
+app.put("/next", (req, res) => {
+  console.log("working");
+  shelljs.exec("bash ./next.sh");
+})
+
 app.post("/get-lyrics", (req, res) => {
   const { song, artist } = req.body;
   getLyrics(song, artist, (lyrics) => {
     res.send(lyrics);
   });
 });
+
+
 
 app.listen(8888, () => {
   console.log("listening on port 8888");

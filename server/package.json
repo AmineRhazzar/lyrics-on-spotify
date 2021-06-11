@@ -16,7 +16,8 @@
     "express": "~4.16.0",
     "google": "^2.1.0",
     "querystring": "~0.2.0",
-    "request": "~2.83.0"
+    "request": "~2.83.0",
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

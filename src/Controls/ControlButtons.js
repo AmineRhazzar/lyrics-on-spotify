@@ -61,8 +61,8 @@ const ControlButtons = (props) => {
   };
 
   const goNext = () => {
-    fetch("	https://api.spotify.com/v1/me/player/next", {
-      method: "POST",
+    fetch("http://localhost:8888/next", {
+      method: "PUT",
       headers: {
         Authorization: "Bearer " + props.accessToken,
         Accept: "application/json",

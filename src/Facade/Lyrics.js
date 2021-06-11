@@ -1,16 +1,7 @@
-import React, { useEffect } from "react";
-import { fadeIn } from "./utils";
+import React from "react";
 
-const Lyrics = (props) => {
-  useEffect(() => {
-    document.querySelector(".lyrics-wrapper").scrollTop = 0;
-    
-    return () => {
-      document.querySelector(".lyrics-wrapper").remove();
-    }
 
-  }, []);
-  
+const Lyrics = (props) => { 
   
 
   return (

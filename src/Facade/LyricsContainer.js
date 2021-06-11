@@ -60,7 +60,9 @@ const LyricsContainer = (props) => {
           </p>
         </div>
         <button
+          id="get-next"
           onClick={() => {
+            console.log("clicked !");
             setGetNext(!getNext);
           }}
         >

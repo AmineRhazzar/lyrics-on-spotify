@@ -143,7 +143,7 @@ app.get("/refresh_token", function (req, res) {
     },
     json: true,
   };
-// Buffer.from(client_id + ":" + client_secret, "base64")
+  // Buffer.from(client_id + ":" + client_secret, "base64")
   //(new Buffer(client_id + ':' + client_secret).toString('base64'))
 
   request.post(authOptions, function (error, response, body) {
@@ -159,40 +159,38 @@ app.get("/refresh_token", function (req, res) {
 app.put("/next", (req, res) => {
   try {
     shelljs.exec("bash ./scripts/next.sh");
-    res.status(204);
+    res.status(204).send();
   } catch (e) {
-    res.status(400);
+    res.status(400).send();
   }
-})
+});
 
 app.put("/prev", (req, res) => {
   try {
     shelljs.exec("bash ./scripts/prev.sh");
-    res.status(204);    
+    res.status(204).send();
   } catch (e) {
-    res.status(400);
+    res.status(400).send();
   }
-
-})
+});
 
 app.put("/playpause", (req, res) => {
   try {
     shelljs.exec("bash ./scripts/playpause.sh");
-    res.status(204).send({});
+    res.status(204).send();
   } catch (e) {
-    res.status(400)
+    res.status(400).send();
   }
-  
-})
+});
 
-app.get('/playbackstatus', (req, res) => {
+app.put("/pause", (req, res) => {
   try {
-    var playbackstatus = shelljs.exec("bash ./scripts/playbackstatus.sh").stdout;
-    res.send(playbackstatus);
+    shelljs.exec("bash ./scripts/pause.sh");
+    res.status(204).send();
   } catch (e) {
-    res.status(400);
+    res.status(400).send();
   }
-})
+});
 
 app.post("/get-lyrics", (req, res) => {
   const { song, artist } = req.body;
@@ -200,8 +198,6 @@ app.post("/get-lyrics", (req, res) => {
     res.send(lyrics);
   });
 });
-
-
 
 app.listen(8888, () => {
   console.log("listening on port 8888");

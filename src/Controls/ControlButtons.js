@@ -8,17 +8,9 @@ const ControlButtons = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:8888/playbackstatus")
-      .then((res) => res.text())
-      .then((resText) => {
-        console.log(resText);
-        if (resText == "") {
-          setIsPlaying(true);
-        } else if(resText == ""){
-          setIsPlaying(false);
-        }
-      })
-      .catch((err) => {});
+    fetch("http://localhost:8888/pause", {
+      method: "PUT",
+    }).catch((err) => {});
   }, []);
 
   const handleSetPlaying = () => {
@@ -28,6 +20,7 @@ const ControlButtons = (props) => {
       .then((res) => {
         if (res.status === 204) {
           setIsPlaying(!isPlaying);
+          console.log(isPlaying);
         }
       })
       .catch((err) => {});
@@ -37,6 +30,15 @@ const ControlButtons = (props) => {
     fetch("http://localhost:8888/next", {
       method: "PUT",
     })
+      .then((res) => {
+        if (!isPlaying) {
+          setIsPlaying(true);
+        }
+        try {
+          var button = document.getElementById("get-next");
+          button.click();
+        } catch (e) {}
+      })
       // .then((res) => res.json())
       // .then((resJson) => {
       //   if (resJson.error?.reason) {
@@ -58,6 +60,15 @@ const ControlButtons = (props) => {
     fetch("	http://localhost:8888/prev", {
       method: "PUT",
     })
+      .then((res) => {
+        if (!isPlaying) {
+          setIsPlaying(true);
+        }
+        try {
+          var button = document.getElementById("get-next");
+          button.click();
+        } catch (e) {}
+      })
       // .then((res) => res.json())
       // .then((resJson) => {
       //   if (resJson.error?.reason) {
